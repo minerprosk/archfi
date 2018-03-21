@@ -1,0 +1,93 @@
+# Arch Linux Fast Install (archfi)
+# --------------------------------
+# project    : https://github.com/MatMoul/archfi
+# language   : Slovenčina
+# translator : minerprosk (matejdzibela@outlook.sk)
+
+
+locale=sk_SK.UTF-8
+#font=
+
+
+txtexit="Odísť"
+txtback="Späť"
+txtignore="Ignorovať"
+
+txtselectserver="Vyberte zdrojový server :"
+
+txtmainmenu="Hlavné menu"
+txtlanguage="Jazyk"
+txtsetkeymap="Nastavte rozloženie klávesnice"
+txteditor="Upravovací program"
+txtdiskpartmenu="Diskové oddiely"
+txtselectpartsmenu="Vyberte oddiely a inštalovať"
+txthelp="Pomoc"
+txtchangelog="Denník o zmenách"
+txtreboot="Reštartovať"
+
+txtautoparts="Automatické oddiely"
+txteditparts="Upraviť oddiely"
+
+txtautopartsconfirm="Vybrané zariadenie : %1\n\nVšetky údaje budú vymazané ! \n\nContinue ?"
+
+txtautopartclear="Vymažte všetky údaje oddielov"
+txtautopartcreate="Vytvorte %1 oddiel"
+txthybridpartcreate="Nastavte hybridný MBR"
+txtautopartsettype="Nastavte %1 typ oddielu"
+
+txtselectdevice="Vyberte %1 zariadenie :"
+txtselecteddevices="Vybrané zariadenie :"
+
+txtformatmountmenu="Formátovať a upevniť"
+txtformatdevices="Formátovanie zariadení"
+txtformatdevice="Formátovať zariadenie"
+txtmount="Upevniť"
+txtunmount="Odpevniť"
+txtmountdesc="Inštalovať alebo konfigurovať"
+
+txtformatdeviceconfirm="Upozorňujeme, že všetky údaje na vybraných zariadeniach sa vymažú ! \nFormátovať zariadenia ?"
+
+txtselectpartformat="Vyberte formát oddielu pre %1 :"
+txtformatingpart="Formátovanie oddielu %1 ako"
+txtcreateluksdevice="Vytvorte luks zariadenie :"
+txtopenluksdevice="Otvorťe luks zariadenie :"
+txtluksdevicecreated="luks zariadenie bolo vytvorené !"
+
+txtinstallmenu="Inštalačná ponuka"
+
+txtarchinstallmenu="Arch Inštalačná ponuka"
+txtrungrubmakeconfig="Spustiť grub-mkconfig ?"
+
+txteditmirrorlist="Upraviť mirrorlist"
+txtinstallarchlinux="Install Arch Linux"
+txtconfigarchlinux="Config Arch Linux"
+
+txtsethostname="Nastavte názov počítača"
+txtsetfont="Nastavte písmo"
+txtsetlocale="Nastavte lokalitu"
+txtsettime="Nastavte čas"
+txtsetrootpassword="Nastavte heslo pre root"
+
+txtuseutcclock="Použit UTC hardvérový čas ?"
+
+txtoptional="Voliteľný"
+txtrecommandeasyinst="Odporúčaná pre jednoduchú inštaláciu"
+txtset="Nastaviť %1"
+txtgenerate="Generovať %1"
+txtedit="Upraviť %1"
+txtinstall="Inštalovať %1"
+txtenable="Umožniť %1"
+
+txtgrubluksdetected="Šifrovaný root oddiel !\n\nPridať kryptovacie zariadenie= na GRUB_CMDLINE_LINUX v /etc/default/grub ?"
+
+
+txtpressanykey="Pre pokračovanie stlačte ľubovolnú klávesu."
+
+txtinstallosprober="os-prober je dobré riešenie, ak chcete použiť mutli-boot.\nNainštalovať os-prober ?"
+txtefibootmgr="efibootmgr sa vyžaduje pre počítač s efi."
+
+txtarchdidesc="Plný skript na inštaláciu plochy"
+txtinstallarchdi="Arch Linux Inštalácia plochy (archdi) je druhý skript, ktorý vám môže pomôcť pri inštalácii pracovnej stanice.\n\nMôžete skript spustiť alebo nainštalovať. Zvoľte v ďalšej ponuke.\n\nArch Linux Inštalácia plochy má dve závislosti : wget a libnewt.\n\npacstrap wget libnewt ?"
+txtarchdiinstallandlaunch="Nainštalujte a spustite archdi"
+txtarchdiinstall="Nainštalujte archdi"
+txtarchdilaunch="Spustiť archdi"
